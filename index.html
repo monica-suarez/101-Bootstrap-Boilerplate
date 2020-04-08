@@ -13,6 +13,47 @@
     <!-- inside this container you use containers with class name "row" to arrange items. You can have many "rows" on a page -->
   <div class="row">
     <!-- paste in your nav menu here -->
+    <ul class="nav" style="width: 100%; justify-content: center;">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+
+      <!-- to create a row for items create another container element with the class name: "row" -->
+    <div class="column-row">
+        <!-- inside any row you have 12 columns for items to be arranged on. -->
+        <!-- These three elements will each take up 4 columns to fill up the screen -->
+       <div class="col">
+         first column
+        </div>
+        <div class="col">
+          second column
+          </div>
+         <div class="col">
+            third column
+          </div> 
+    </div> 
+  <div class="button-row">  
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+  </div>  
   </div>  
     <!-- create a new "row" div to arrange other items in here -->
     
